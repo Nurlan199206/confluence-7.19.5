@@ -9,16 +9,22 @@
 ```apt update && apt install apt install openjdk-17-jre postgresql-15```
 
 ```sudo mkdir /opt/atlassian/atlassian-agent```
+
 ```sudo chown -R confluence:confluence /opt/atlassian/atlassian-agent```
+
 ```cp atlassian-agent.jar /opt/atlassian/atlassian-agent```
+
 ```add on the start the line /opt/atlassian/confluence/bin/setenv.sh```
 
 ```export JAVA_OPTS="-javaagent:/opt/atlassian/atlassian-agent/atlassian-agent.jar ${JAVA_OPTS}"```
 
 
 ```su - postgres```
+
 ```psql```
+
 ```create role confluence_user login superuser password '123';```
+
 ```create database confluence_db;```
 
 
