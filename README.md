@@ -4,6 +4,7 @@
 2) ```Java 17```
 3) ```Confluence 7.19.5```
 
+```wget https://product-downloads.atlassian.com/software/confluence/downloads/atlassian-confluence-7.19.5-x64.bin```
 
 ```apt update && apt install apt install openjdk-17-jre postgresql-15```
 
