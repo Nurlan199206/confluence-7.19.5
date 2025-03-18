@@ -2,7 +2,7 @@
 
 1) ```PostgreSQL 15```
 2) ```Java 17```
-3) ```Confluence 7.19.5```
+3) ```Confluence 7.19.5 && 9.2.2```
 
 ```wget https://product-downloads.atlassian.com/software/confluence/downloads/atlassian-confluence-7.19.5-x64.bin```
 
